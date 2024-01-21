@@ -22,3 +22,7 @@ Note:
 
 memory jog:
 /c/Users/glads/Downloads/2024-PLANNING-COMMITTEE-WEBSITE
+
+
+AI Source link
+https://chat.openai.com/c/35b0e162-e4e2-48eb-9779-43e3a8b530b1
