@@ -11,6 +11,14 @@ Creating a complete website for the King's Gate United Church Planning Committee
 6. Footer: Contact and social media information.
 7. FAQ Section: A simple FAQ layout.
 
+Note:
+- Accordion/Collapsible Elements: You should add the HTML for each event in the #events section using <button class="accordion">Event Title</button> followed by <div class="panel">Event Details</div>.
+- Search Functionality: This requires additional JavaScript to implement and will depend on the structure of your content.
+- Multimedia Content: Use <img> tags for images and <iframe> for embedding videos.
+- Footer & FAQ: Add relevant content in the respective sections.
+- This is a basic structure and needs to be expanded upon based on specific requirements, content, and styles. Remember to test the website on various devices to ensure responsiveness and usability.
+
+
 
 memory jog:
 /c/Users/glads/Downloads/2024-PLANNING-COMMITTEE-WEBSITE
