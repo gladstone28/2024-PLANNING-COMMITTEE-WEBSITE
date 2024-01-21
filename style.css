@@ -2,12 +2,15 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
 /* Responsive design */
+
 @media (max-width: 768px) {
     /* Styles for tablets and smartphones */
 }
 
-header, footer {
+header,
+footer {
     background-color: #f2f2f2;
     padding: 10px 0;
 }
@@ -27,7 +30,9 @@ header, footer {
     color: #333;
 }
 
+
 /* Accordion styles */
+
 .accordion {
     cursor: pointer;
     padding: 18px;
@@ -38,7 +43,8 @@ header, footer {
     transition: 0.4s;
 }
 
-.active, .accordion:hover {
+.active,
+.accordion:hover {
     background-color: #ccc;
 }
 
@@ -46,4 +52,21 @@ header, footer {
     padding: 0 18px;
     display: none;
     overflow: hidden;
+}
+
+#faq {
+    margin: 20px;
+    padding: 10px;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+}
+
+.faq-question {
+    font-weight: bold;
+}
+
+.faq-answer {
+    padding-left: 20px;
 }
