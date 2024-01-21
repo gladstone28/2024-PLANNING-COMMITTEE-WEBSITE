@@ -19,6 +19,38 @@ Note:
 - This is a basic structure and needs to be expanded upon based on specific requirements, content, and styles. Remember to test the website on various devices to ensure responsiveness and usability.
 
 
+User
+Can you give me example HTML for the Accordion/Collapsible Elements?
+
+ChatGPT
+Certainly! Here's an example of how you might set up accordion/collapsible elements in HTML for the events section. This example includes two events, but you can replicate the structure for as many events as needed.
+
+
+> 
+
+<section id="events">
+    <h2>Upcoming Events</h2>
+
+    <button class="accordion">Event 1: Summer Retreat</button>
+    <div class="panel">
+        <p>Date: July 15th, 2024</p>
+        <p>Location: Mountain View Retreat Center</p>
+        <p>Description: Join us for a weekend of fellowship, worship, and rejuvenation at our annual summer retreat. Activities include hiking, workshops, and worship sessions.</p>
+    </div>
+
+    <button class="accordion">Event 2: Charity Concert</button>
+    <div class="panel">
+        <p>Date: September 10th, 2024</p>
+        <p>Location: King's Gate Auditorium</p>
+        <p>Description: An evening of music and community. All proceeds will go towards local charities. Featuring performances by local artists and church choirs.</p>
+    </div>
+
+    <!-- Add more events in the same format as above -->
+</section>
+
+
+
+
 
 memory jog:
 /c/Users/glads/Downloads/2024-PLANNING-COMMITTEE-WEBSITE
