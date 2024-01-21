@@ -2,16 +2,13 @@ body {
     font-family: Arial, sans-serif;
 }
 
-
 /* Responsive design */
-
 @media (max-width: 768px) {
     /* Styles for tablets and smartphones */
 }
 
-header,
-footer {
-    background-color: #e9d2d2;
+header, footer {
+    background-color: #f2f2f2;
     padding: 10px 0;
 }
 
@@ -30,9 +27,7 @@ footer {
     color: #333;
 }
 
-
 /* Accordion styles */
-
 .accordion {
     cursor: pointer;
     padding: 18px;
@@ -43,8 +38,7 @@ footer {
     transition: 0.4s;
 }
 
-.active,
-.accordion:hover {
+.active, .accordion:hover {
     background-color: #ccc;
 }
 
@@ -52,45 +46,4 @@ footer {
     padding: 0 18px;
     display: none;
     overflow: hidden;
-}
-
-#faq {
-    margin: 20px;
-    padding: 10px;
-}
-
-.faq-item {
-    margin-bottom: 15px;
-}
-
-.faq-question {
-    font-weight: bold;
-}
-
-.faq-answer {
-    padding-left: 20px;
-}
-
-footer {
-    background-color: #f2f2f2;
-    padding: 20px;
-    text-align: center;
-}
-
-footer div {
-    margin-bottom: 15px;
-}
-
-footer h3 {
-    color: #333;
-    margin-bottom: 10px;
-}
-
-footer a {
-    text-decoration: none;
-    color: #0077cc;
-}
-
-footer a:hover {
-    text-decoration: underline;
 }
