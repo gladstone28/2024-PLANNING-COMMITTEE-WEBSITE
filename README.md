@@ -97,6 +97,37 @@ function searchEvents() {
 - If the content does not include the search input, both the accordion button and its associated panel are hidden (display="none"). If it does include the search input, the accordion button is shown (display="list-item"), but the panel remains hidden until the user clicks the accordion.
 This script provides a basic search functionality. It might need to be adjusted depending on the exact structure and content of your webpage. For more complex search features, additional coding and perhaps even server-side support might be needed.
 
+Multimedia Content: HTML tags for embedding images and videos. Can you give me example code of this.
+
+ChatGPT
+Certainly! Embedding images and videos in your webpage can greatly enhance the visual appeal and user engagement. Below are examples of how you can include multimedia content using HTML tags.
+
+Embedding Images
+To embed an image, you use the <img> tag. You should specify the source of the image (src) and provide an alternative text (alt) for accessibility reasons.
+
+<div>
+    <h3>Event Image</h3>
+    <img src="path_to_your_image.jpg" alt="Description of the image">
+</div>
+
+Replace "path_to_your_image.jpg" with the actual path to your image file.
+The alt attribute provides a text description of the image for screen readers and in cases where the image cannot be displayed.
+
+Embedding Videos
+For embedding videos, you can use the <video> tag for videos hosted on your server or the <iframe> tag for videos hosted on platforms like YouTube or Vimeo.
+
+Using <video> Tag:
+
+<div>
+    <h3>Event Video</h3>
+    <video width="320" height="240" controls>
+        <source src="path_to_your_video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+
+
 
 
 memory jog:
