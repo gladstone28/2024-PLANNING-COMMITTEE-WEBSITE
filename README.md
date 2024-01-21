@@ -56,6 +56,39 @@ Certainly! Here's an example of how you might set up accordion/collapsible eleme
 - Remember to include the CSS and JavaScript provided in the previous message to ensure that the accordion functionality works properly. The JavaScript will make these sections collapsible, and the CSS will style them appropriately.
 
 
+### User
+Search Functionality: This requires additional JavaScript to implement and will depend on the structure of your content. Can you give me example code of this function?
+
+### ChatGPT
+Sure, I can provide you with an example of how to implement a basic search functionality using JavaScript. This functionality will allow users to search for events in the accordion/collapsible sections you have on your webpage.
+
+First, you'll need to add a search bar in your HTML where users can input their search queries:
+
+>
+
+<div id="search-container">
+    <input type="text" id="search-input" placeholder="Search events...">
+    <button onclick="searchEvents()">Search</button>
+</div>
+
+Next, you will need JavaScript to handle the search functionality. This script will look for the text the user inputs in the search bar, compare it with the text in your accordion sections, and then display only the sections that match the search query.
+
+function searchEvents() {
+    let input = document.getElementById('search-input').value;
+    input = input.toLowerCase();
+    let x = document.getElementsByClassName('accordion');
+
+    for (i = 0; i < x.length; i++) {
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+            x[i].nextElementSibling.style.display="none"; // Hides the panel as well
+        } else {
+            x[i].style.display="list-item"; 
+            x[i].nextElementSibling.style.display="none"; // Keeps the panel hidden until clicked
+        }
+    }
+}
+
 
 
 
