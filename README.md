@@ -89,7 +89,13 @@ function searchEvents() {
     }
 }
 
-
+### Explanation:
+- The searchEvents function is triggered when the user clicks the search button.
+- It retrieves the user's input from the search bar and converts it to lowercase (to ensure the search is case-insensitive).
+- The function then loops through all elements with the class name accordion (which should be your event titles).
+- For each element, it checks if the innerHTML (the content of the accordion) includes the search input.
+- If the content does not include the search input, both the accordion button and its associated panel are hidden (display="none"). If it does include the search input, the accordion button is shown (display="list-item"), but the panel remains hidden until the user clicks the accordion.
+This script provides a basic search functionality. It might need to be adjusted depending on the exact structure and content of your webpage. For more complex search features, additional coding and perhaps even server-side support might be needed.
 
 
 
